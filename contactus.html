@@ -51,62 +51,33 @@
 
         <!-- Left big block - quote -->
         <div class="row">
-            <div class="col-sm-3 col-md-4 color2">
-                <div class="welcome"></div>
-                <h1> Welcome to your future. </h1>
-                <h2> A new way of life...on MARS!</h2>
-                <p> We are so pleased that you have decided to look into life on Mars and we invite you to explore our
-                    page to learn more </p>
-                <ul>
-                    <li class="icon">
-                        <a class="button1" href="welcome.html"><i class="fas fa-user-astronaut"></i></a>
-                    </li>
-                    <li class="icon">
-                        <a class="button1" href="welcome.html"><i class="fas fa-rocket"></i></a>
-                    </li>
-                    <li class="icon">
-                        <a class="button1" href="welcome.html"><i class="fas fa-moon"></i></a>
-                    </li>
-                </ul>
-            </div>
+            <div class="col-sm-12 color6">
+                <div class="contact">
+                    <h1> Contact us </h1>
 
-            <!-- Middle block - recent updates -->
-            <div class="col-sm-3 col-md-3 color3">
-                <div class="card1">
-                    <div class="card1-body">
-                        <h2 class="card1-title"> Recent updates </h2>
-                        <p class="card1-text"> Nasa has deemed space travel safe for people over the age of 18 in the
-                            United States 5/3/2021</p>
-                        <p> Space travel pricing previously costed millions of dollars, has been reduced to an
-                            affordable expense for all families 4/20/2021 </p>
-                        <a class="button2" href="recentupdates.html"> Updates </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right block - preview images -->
-            <div class="col-sm-3 col-md-3 color4">
-                <div class="card2">
-                    <div class="card2-body">
-                        <h2 class="card2-title"> Preview images </h2>
-                        <div class="card2-text">
-                            <img src="images/viewfrommars.jpg" alt="View from Mars into outer space">
-                            <figcaption>Image source: Creative Commons <a
-                                    href="https://www.flickr.com/photos/kevinmgill/14859520035" target="_blank">
-                                    Kevin Gill
-                                </a>
-                            </figcaption>
+                    <!-- unlinked form, therefore action is empty-->
+                    <form method="get" action=""> 
+                        <div class="signup"><h2>Please us this form to contact us with any questions, comments, or concerns
+                            you may have.</h2>
                         </div>
-                        <div class="card2-text">
-                            <img src="images/marsapproach2033.jpg" alt="A spaceship approaching Mars">
-
-                            <figcaption>Image source: Creative Commons <a
-                                    href="https://www.flickr.com/photos/flyingsinger/125791010" target="_blank">
-                                    Bruce Irving
-                                </a>
-                            </figcaption>
+                            <label>
+                                <h3>Full name <span class="required"><span class="helper">minimum of 4
+                                        characters</span></span></h3>
+                                <input type="text" name="full name" minlength="4" placeholder="Jane Doe" required />
+                            </label>
+                            <label>
+                                <h3>Email <span class="required"><span class="helper">valid email address, minimum of 6
+                                        characters</span></span></h3>
+                                <input type="email" name="email" minlength="6" placeholder="JaneDoe123@gmail.com" required />
+                            </label>
+                            <label>
+                                <h3>Comments, questions, or concerns <span class="required"></span></h3>
+                                <input type="text" name="email" minlength="2" placeholder="text" required />
+                            </label>
+                        <div class="submit1">
+                            <input type="submit"/>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -119,8 +90,8 @@
                         <p> Sign up to receive updates on new posts! </p>
                         <input type="text" placeholder="Full Name">
                         <input type="email" placeholder="Email">
-                        <input type="submit" vlaue="submit">
-                    </div>
+                        <input type="submit" value="submit">
+                    </d>
                 </footer>
             </div>
         </div>

@@ -30,7 +30,7 @@
 .fa-space-shuttle:hover {
     transition: transform 2s;
     transform: rotate(360deg);
-    color: white;
+    color: rgb(94, 94, 248);
 }
 
 /* Navigation bar block */
@@ -99,7 +99,7 @@
 
 .color2 ul li:hover {
     transition: all 1s;
-    background-color: black;
+    background-color:rgb(94, 94, 248);
     opacity: 1;
 }
 
@@ -112,9 +112,10 @@
 
 /* Middle block - recent updates */
 .color3 {
-    background: rgb(71, 71, 148);
+    background:rgb(157, 66, 66);
     color: white;
     margin: 10px;
+    margin-left: 30px; 
     padding: 35px;
     border: 2px solid black;
     min-width: 200px;
@@ -166,9 +167,10 @@
 
 /* Right block - preview images */
 .color4 {
-    background: rgb(71, 71, 148);
+    background:  rgb(157, 66, 66);
     color: white;
     margin: 10px;
+    margin-left: 30px; 
     padding: 35px;
     border: 2px solid black;
     min-width: 200px;
@@ -192,6 +194,7 @@ figcaption {
     transition: all 1s;
     padding-bottom: 10px;
     background-color: white;
+    border: 10px solid rgb(94, 94, 248);
 }
 
 .card2-text img {
@@ -203,6 +206,81 @@ figcaption {
     transform: scale(1.05);
     box-shadow: 10px 5px 5px black;
 }
+
+/* Contact Us block */ 
+.contact {
+    transition: all 2s;
+    background: rgb(157, 66, 66);
+    color: white; 
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2em;
+    height: 80%;
+    width: 100%;
+    color: black;
+}
+
+label {
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px; 
+}
+
+form input {
+    border: 2px solid darkslategray;
+    width: 95%;
+}
+
+form input:hover {
+    background-color: #f1f1f1;
+}
+
+.signup {
+    padding: 20px;
+    text-align: left;
+
+}
+
+.submit1 input {
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+}
+
+form span.required:before {
+    color: red;
+    content: " * ";
+}
+
+form span.helper {
+    font-size: 0.6em;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 2px;
+    color: red;
+    vertical-align: super;
+    opacity: 0;
+}
+
+form label:hover span.helper {
+    opacity: 1;
+}
+
+input:not([type=submit]):valid {
+    border-color: green;
+}
+
+input:not([type=submit]):invalid {
+    border-color: rgba(255, 0, 0, 0.26);
+}
+
 
 /* Footer block */
 .color6 {
@@ -225,3 +303,26 @@ figcaption {
     transition: all 2s;
     opacity: 1;
 }
+
+.submit {
+    color: rgb(94, 94, 248)
+}
+
+/* Specific font families outlined in elements above */ 
+h1 {
+    font-size: 50px; 
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px; 
+}
+
+h3 {
+    font-size: 16px; 
+}
+
+p {
+    font-size: 14px; 
+}
+
